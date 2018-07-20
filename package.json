@@ -1,0 +1,24 @@
+{
+  "name": "comfybot",
+  "version": "1.0.0",
+  "author": "MemeLabs",
+  "license": "GPL-3.0",
+  "private": true,
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "fmt": "refmt --in-place src/*.re",
+    "start": "bsb -make-world -w"
+  },
+  "dependencies": {
+    "@ahrefs/bs-dotenv": "^1.0.3",
+    "@glennsl/bs-json": "^2.0.0",
+    "bs-fetch": "^0.3.0",
+    "bs-ws": "^1.0.8",
+    "dotenv": "^6.0.0",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.0"
+  }
+}

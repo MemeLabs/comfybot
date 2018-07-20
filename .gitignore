@@ -1,0 +1,7 @@
+lib/bs/
+node_modules/
+.merlin
+.bsb.lock
+npm-debug.log
+.env
+*.bs.js
