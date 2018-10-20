@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@ahrefs/bs-dotenv": "^1.0.3",
-    "@glennsl/bs-json": "^2.0.0",
+    "@glennsl/bs-json": "^3.0.0",
     "bs-fetch": "^0.3.0",
     "bs-ws": "^1.0.8",
     "dotenv": "^6.0.0",
